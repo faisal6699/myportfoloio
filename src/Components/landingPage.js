@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import {Grid ,Cell} from 'react-mdl';
 import Hero from './Hero';
 
-import projects from './projects';
+import Projects from './projects';
 import {info} from './info';
 
 // import {Jumbotron, Container, Row, Col, Image} from 'react-bootstrap';
@@ -27,7 +27,7 @@ class landingPage extends Component{
 
      			{/*		<projects click={info[0].click} cardurl={info[0].cardurl} cardname={info[0].cardname} button={info[0].button} />   */}
            
-     					<projects />
+     					<Projects />
            
 
 					   		<hr/>
